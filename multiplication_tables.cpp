@@ -11,7 +11,7 @@ int main()
     
     for (int i = 1; i <= 10; i++)                                                   // for loop
     {
-        cout << (number*i) << endl;                                                 // condition for multiplication table generation
+        cout << number << " X " << i << " = " << (number*i) << endl;               // condition for multiplication table generation
     }
     
     return 0;
